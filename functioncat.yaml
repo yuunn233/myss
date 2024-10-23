@@ -1,6 +1,6 @@
 opensystem: v1.0.0
 info:
-  name: astroship 
+  name: react nice resume 
 envs:
   prod:
     branch: main
