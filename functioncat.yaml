@@ -1,6 +1,6 @@
-opensystem: v1.0.0
+system: 1.0.0
 info:
-  name: react nice resume 
+  name: react nice resume
 envs:
   prod:
     branch: master
@@ -15,9 +15,7 @@ apps:
         build:
           root_path: ./
           before_script: NODE_VERSION=16
-          command:  npm run build
+          script: npm run build
         provision:
           root_path: build
-          runtime:
-            type: nodejs18x
-     
+          type: nodejs18x
